@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title Styles */
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+#add-event-btn {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#add-event-btn:hover {
+  background-color: #007ba7;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #e6e2d3;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e6e2d3;
+}
+
+td {
+  background-color: #f0f0f0;
+}
+
+/* SVG Icon Styles */
+button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.edit-btn svg path,
+.save-btn svg path {
+  fill: #008cba;
+}
+
+.delete-btn svg path,
+.cancel-btn svg path {
+  fill: #c94c4c;
+}
+
+.add-btn svg path {
+  stroke: #008cba;
+}
